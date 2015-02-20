@@ -1,4 +1,4 @@
-module Beaneater
+class Beaneater
   # Raises when a beanstalkd instance is no longer accessible.
   class NotConnected < RuntimeError
     # @!attribute connection
